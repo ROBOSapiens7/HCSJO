@@ -1,0 +1,41 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-image: url("../images/textura.png");
+  background-color: #CCECFC;
+  background-position: left top;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+footer {
+  background-image: url("../images/footer.jpg");
+	background-size: contain;
+	background-size: cover;
+	background-position:top;
+	border: none;
+  padding-top: 0px;
+  padding-bottom: 150px;
+	width: 100%;
+  position: relative;
+  clear:both;
+}
+header {
+    background-color: #FFF;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: none;
+  	height:auto;
+  	background-size: contain;
+  	background-size: cover;
+    width: 100%;
+}
+.main{
+  	min-height:calc(100% - 30px - 70px);
+	  padding-top: 15px;
+  	overflow:auto;
+  	padding-bottom:55px;
+}
